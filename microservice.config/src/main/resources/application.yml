@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: msvc-config
+    name: microservice-config
   profiles:
     active: native
   cloud:
     config:
       server:
         native:
-          search-locations: classpath:/configuration
+          search-locations: classpath:/configurations
